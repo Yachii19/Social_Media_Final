@@ -122,7 +122,7 @@ const PostCard: React.FC<PostCardProps> = ({ post, onLike, onEdit, onDelete }) =
     backgroundColor: '#f5f5f5',
     overflow: 'hidden',
   };
-
+  console.log(post.imageUrl)
   return (
     <Card
       sx={{
