@@ -241,7 +241,7 @@ const PostCard: React.FC<PostCardProps> = ({ post, onLike, onEdit, onDelete }) =
                 image={
                   post.imageUrl.startsWith('http')
                     ? post.imageUrl
-                    : `http://localhost:8080${post.imageUrl}`
+                    : `https://social-media-backend-yieo.onrender.com${post.imageUrl}`
                 }
                 alt="Post image"
               />

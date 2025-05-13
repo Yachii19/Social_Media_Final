@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Post, CreatePostData, UpdatePostData } from '../interfaces/Post';
 
-const API_URL = 'https://social-media-backend-utcd.onrender.com/vinuya/posts';
+const API_URL = 'https://social-media-backend-yieo.onrender.com/vinuya/posts';
 
 export const fetchPosts = async (): Promise<Post[]> => {
   const response = await axios.get(API_URL);
