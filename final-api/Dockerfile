@@ -12,4 +12,4 @@ RUN chmod +x mvnw
 # Package the application
 RUN ./mvnw package -DskipTests
 
-CMD ["java", "-jar", "target/social-media-backend-0.0.1-SNAPSHOT.jar"]git
+CMD ["java", "-jar", "target/social-media-backend-0.0.1-SNAPSHOT.jar"]
